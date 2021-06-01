@@ -135,7 +135,6 @@ header .inner-container .button .btn {
   color: #FF5E3A;
   font-size: 12px;
   text-align: left;
-  margin-left: 5px;
   padding: 0 5px 0 5px;
 }
 .form .inner-container .name fieldset input {
@@ -200,7 +199,6 @@ header .inner-container .button .btn {
   color: #656565;
   font-size: 12px;
   text-align: left;
-  margin-left: 5px;
   padding: 0 5px 0 5px;
 }
 .form .inner-container .password fieldset input {
