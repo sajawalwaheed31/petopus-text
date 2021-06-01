@@ -107,10 +107,11 @@ header .inner-container .button .btn {
   background-color: #FFEAE6;
   border-radius: 5px;
   position: relative;
+  padding-top: 6px;
 }
 .form .inner-container .btn button img {
   position: absolute;
-  left: 9px;
+  left: 7px;
 }
 .form .inner-container .btn .active {
   border: 1px solid #C4C4C4;
