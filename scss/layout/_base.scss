@@ -1,0 +1,16 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid #cdcdcd40;
+    max-height: 1226px;
+}
+.middle-container {
+    display: grid;
+    grid-template-columns: 720px 719.88px;
+}

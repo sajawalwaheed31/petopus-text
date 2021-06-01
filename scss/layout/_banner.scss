@@ -1,0 +1,32 @@
+.banner {
+    width: 720px;
+    height: 1149px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 422px;
+    position: relative;
+    .inner-container {
+        max-width: 610px;
+        margin: 0 auto;
+        .contant {
+            text-align: center;
+            h1 {
+                font-size: 48px;
+                margin-bottom: 20px;
+                color: #494720;
+                a {
+                    color: #FF5E3A;
+                }
+            }
+            p {
+                font-size: 19px;
+                color: #656565;
+            }
+        }
+    }
+    img {
+        position: absolute;
+        bottom: 28px;
+    }
+}

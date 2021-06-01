@@ -1,0 +1,360 @@
+/* HEADER CSS START */
+header {
+  box-shadow: 0px 3px 20px #4343431A;
+}
+header .inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 105px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+header .inner-container .button {
+  justify-self: end;
+  align-self: center;
+}
+header .inner-container .button button {
+  width: 145px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #FF5E3A;
+  background-color: #fff;
+  color: #FF5E3A;
+  font-size: 18px;
+  outline: none;
+}
+header .inner-container .button .btn {
+  background-color: #FF5E3A;
+  border: none;
+  color: #FFFFFF;
+}
+
+/* HEADER CSS END */
+/* BANNER CSS START */
+.banner {
+  width: 720px;
+  height: 1149px;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 422px;
+  position: relative;
+}
+.banner .inner-container {
+  max-width: 610px;
+  margin: 0 auto;
+}
+.banner .inner-container .contant {
+  text-align: center;
+}
+.banner .inner-container .contant h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #494720;
+}
+.banner .inner-container .contant h1 a {
+  color: #FF5E3A;
+}
+.banner .inner-container .contant p {
+  font-size: 19px;
+  color: #656565;
+}
+.banner img {
+  position: absolute;
+  bottom: 28px;
+}
+
+/* BANNER CSS END */
+/* FORM CSS START */
+.form {
+  max-width: 719.88px;
+  margin: 0 auto;
+}
+.form .inner-container {
+  width: 620px;
+  padding-top: 47px;
+  text-align: center;
+}
+.form .inner-container h1 {
+  font-size: 32px;
+  color: #0A0101;
+  margin-bottom: 40px;
+}
+.form .inner-container .active {
+  width: 250px;
+  height: 50px;
+  background-color: #F9E5E0;
+  color: #FF5E3A;
+  margin-right: 30px;
+}
+.form .inner-container a {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 50px;
+  margin-bottom: 34.97px;
+  color: #2C2B306B;
+}
+.form .inner-container .btn {
+  margin-bottom: 42.3px;
+}
+.form .inner-container .btn button {
+  width: 120px;
+  height: 40px;
+  color: #FF7455;
+  border: 1px solid #FF7455;
+  background-color: #FFEAE6;
+  border-radius: 5px;
+  position: relative;
+}
+.form .inner-container .btn button img {
+  position: absolute;
+  left: 9px;
+}
+.form .inner-container .btn .active {
+  border: 1px solid #C4C4C4;
+  background-color: #FFF;
+  margin-left: 15.11px;
+  color: #C4C4C4;
+}
+.form .inner-container .name {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+.form .inner-container .name fieldset {
+  height: 55px;
+  position: relative;
+  border: 1px solid #FF5E3A;
+  border-radius: 5px;
+  padding-left: 19px;
+}
+.form .inner-container .name fieldset legend {
+  color: #FF5E3A;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 5px;
+  padding: 0 5px 0 5px;
+}
+.form .inner-container .name fieldset input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.form .inner-container .name fieldset ::placeholder {
+  color: #B3AEAE;
+}
+.form .inner-container .name fieldset img {
+  position: absolute;
+  right: 18.85;
+  top: 9;
+}
+.form .inner-container .name p {
+  position: relative;
+  height: 50px;
+  padding-top: 5px;
+}
+.form .inner-container .name p input {
+  width: 300px;
+  height: 50px;
+  padding: 0 18px 0 19px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #CDCDCD;
+}
+.form .inner-container .name p img {
+  position: absolute;
+  right: 18.85;
+  top: 20px;
+}
+.form .inner-container .password p {
+  position: relative;
+}
+.form .inner-container .password p input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #CDCDCD;
+  padding: 0 18px 0 19px;
+  outline: none;
+  margin-bottom: 17px;
+}
+.form .inner-container .password p img {
+  position: absolute;
+  top: 18;
+  right: 18.25;
+}
+.form .inner-container .password fieldset {
+  height: 55px;
+  position: relative;
+  border: 1px solid #B2B2B2;
+  border-radius: 5px;
+  padding-left: 19px;
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+}
+.form .inner-container .password fieldset legend {
+  color: #656565;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 5px;
+  padding: 0 5px 0 5px;
+}
+.form .inner-container .password fieldset input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.form .inner-container .password fieldset ::placeholder {
+  font-size: 32px;
+}
+.form .inner-container .password fieldset img {
+  position: absolute;
+  right: 18;
+  top: 10;
+}
+.form .inner-container .loction {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+.form .inner-container .loction p {
+  position: relative;
+}
+.form .inner-container .loction p input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #CDCDCD;
+  outline: none;
+  padding: 0 19px;
+}
+.form .inner-container .loction p ::placeholder {
+  color: #B3AEAE;
+}
+.form .inner-container .loction p img {
+  position: absolute;
+  top: 23;
+  right: 18;
+}
+.form .inner-container .verify {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+.form .inner-container .verify .captcha {
+  display: inline-flex;
+  height: 50px;
+  padding: 0 21px 0 14px;
+  border: 1px solid #CBCBCB;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  position: relative;
+}
+.form .inner-container .verify .captcha p {
+  font-size: 14px;
+  line-height: 50px;
+  margin-left: 10px;
+}
+.form .inner-container .verify .captcha img {
+  height: max-content;
+  align-self: center;
+}
+.form .inner-container .verify .captcha .verify-capcha {
+  position: absolute;
+  right: 21;
+  top: 3;
+  text-align: -webkit-center;
+}
+.form .inner-container .verify .captcha .verify-capcha img {
+  display: block;
+}
+.form .inner-container .verify .captcha .verify-capcha span {
+  font-size: 8px;
+  color: #555555;
+}
+.form .inner-container .verify .captcha .verify-capcha span p {
+  font-size: 6px;
+  color: #555555;
+  line-height: 0px;
+  margin-left: 0px;
+}
+.form .inner-container .verify .accept {
+  display: inline-flex;
+  height: 50px;
+  padding: 0 20px 0 22px;
+}
+.form .inner-container .verify .accept p {
+  font-size: 10px;
+  line-height: 50px;
+}
+.form .inner-container .verify .accept img {
+  height: max-content;
+  margin-right: 10px;
+  align-self: center;
+}
+.form .inner-container .create-account {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #CDCDCD;
+  width: 359px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.form .inner-container .create-account button {
+  width: 359px;
+  height: 60px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #FF5E3A;
+  border-radius: 5px;
+  border: none;
+}
+.form .inner-container .create-account p {
+  font-size: 16px;
+  color: #222222;
+}
+.form .inner-container .create-account p a {
+  color: #FF5E3A;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+
+/* FORM CSS END */
+/* FOOTER CSS START */
+footer .footer p {
+  color: #656565;
+  line-height: 25px;
+}
+
+/* FOOTER CSS END */
+/* BASE CSS START */
+*, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid #cdcdcd40;
+  max-height: 1226px;
+}
+
+.middle-container {
+  display: grid;
+  grid-template-columns: 720px 719.88px;
+}
+
+/* BASE CSS END */
+
+/*# sourceMappingURL=style.css.map */
